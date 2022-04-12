@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@200;300;400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap");
 
 * {
   box-sizing: border-box;
@@ -12,49 +12,51 @@ body {
 }
 
 body {
-  background-color: #D5E1EF;
+  background-color: hsl(212, 45%, 89%);
   display: flex;
   justify-content: center;
   align-items: center;
-  font-family: 'overpass';
+  font-family: "Outfit";
+  /* background: url(/img/mobile-design.jpg) no-repeat center; */
 }
 
 .container {
   height: 496px;
   width: 320px;
-  background-color: #FFFFFF;
-  border-radius: 8px;
-  box-shadow: 0px 8px 16px rgba(0,0,0, .08);
-  
+  margin-left: 1px;
+  background-color: hsl(0, 0%, 100%);
+  border-radius: 19px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.08);
+
+  text-align: center;
 }
 
 .qr-code {
   margin-top: 16px;
   text-align: center;
-  margin-bottom: 24px;
+  margin-bottom: 19px;
 }
 .qr-code img {
-  border-radius: 8px;
+  border-radius: 11px;
   width: 288px;
-
 }
 
-.title, .text-content {
+.title {
   text-align: center;
   margin-left: 24px;
   margin-right: 24px;
-  
+  color: hsl(218, 44%, 22%);
+  font-size: 1.39em;
+  margin-bottom: 0.7em;
+  font-weight: 700;
 }
-.title {
-  color: #272E38;
-  font-size: 22px;
-  margin-bottom: 24px;
-}
+
 .text-content {
-  color: #A9AFBB;
-  font-size: 15px;
-  
+  color: hsl(220, 15%, 55%);
+  font-size: 0.96em;
+  line-height: 1.24em;
+  text-align: center;
+  margin-right: 28px;
+  margin-left: 28px;
+  font-weight: 400;
 }
-
-
-
